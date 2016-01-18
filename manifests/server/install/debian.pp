@@ -18,7 +18,7 @@ class omd::server::install::debian {
   }
 
   $default_pkg_name = $omd::server::repo ? {
-    /testing/ => 'omd-daily',
+    /testing/ => 'omd-labs-edition',
     default   => 'omd',
   }
 
